@@ -1,0 +1,18 @@
+{
+  "name": "kms-aes256-app",
+  "version": "0.1.0",
+  "description": "an app to encrypt and decrypt data with KMS and AES256",
+  "main": "./src/app.js",
+  "scripts": {
+    "generateKey": "node ./src/getKey",
+    "encrypt": "node ./src/encrypt",
+    "decrypt": "node ./src/decrypt"
+  },
+  "author": "carlos gomez",
+  "license": "ISC",
+  "dependencies": {
+    "aes256": "^1.0.4",
+    "aws-sdk": "^2.525.0",
+    "dotenv": "^8.1.0"
+  }
+}
